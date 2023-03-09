@@ -33,8 +33,8 @@ function Nav({ user }) {
         <Item>
           {
           !user ? 
-            <_NavLink to={LOCAL + "/oauth2/authorization/google"}>Login</_NavLink>
-          : <_NavLink to={LOCAL + "/apio/user/logout"}>Logout</_NavLink>  
+            <_NavLink to={"http://localhost:8080/oauth2/authorization/google"}>Login</_NavLink>
+          : <_NavLink to={"http://localhost:8080/apio/user/logout"}>Logout</_NavLink>  
           }
         </Item>
         <Item>
