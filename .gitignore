@@ -16,6 +16,8 @@ local.properties
 
 # My Settings
 application-oauth.properties
+application-real.properties
+application-real-db.properties
 
 # External tool builders
 .externalToolBuilders/
