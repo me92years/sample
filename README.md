@@ -13,6 +13,4 @@ entity 구성
   Movie: 제목, 포스터 Url
   MovieDetail: 개요, 장르
   MovieReview: 리뷰내용, 작성자
-  
-
-
+  User: 구글 로그인을 위한 email, picture, nicname, refresh, role
